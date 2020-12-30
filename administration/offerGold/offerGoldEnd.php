@@ -51,14 +51,11 @@ if (isset($_POST['adminCharacterId'])
                     'adminOfferGold' => $adminOfferGold,
                     'adminCharacterId' => $adminCharacterId));
                     $updateCharacter->closeCursor();
-                    ?>
-                    
-                    Vous venez d'offrir <em><?php echo $adminOfferGold ?></em> pièce(s) d'or au joueur <em><?php echo $adminCharacterName ?></em>.<br />
-                    
-                    <?php
                 }
                 $characterQuery->closeCursor();
                 ?>
+
+                Vous venez d'offrir <em><?php echo $adminOfferGold ?></em> pièce(s) d'or à tous les joueurs</em>.<br />
                 
                 <hr>
                 
