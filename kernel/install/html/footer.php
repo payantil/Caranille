@@ -12,10 +12,8 @@
             echo "<center>Temps d'exécution de la page: {$pageLoadTime} secondes<br /></center>";
             echo "<center>Caranille : 1.6.7</center>";
         ?>
-        
-        <script src="../../js/jquery-3.2.1.min.js"></script>
-        <script src="../../js/popper.min.js"></script>
-        <script src="../../js/bootstrap.min.js"></script>
+		
+        <script src="../../../js/bootstrap.min.js"></script>
     </body>
 </html>
 
