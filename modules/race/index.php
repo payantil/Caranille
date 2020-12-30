@@ -52,9 +52,7 @@ while ($race = $raceQuery->fetch())
                 </td>
             </tr>
         </table>
-        
-    <hr>
-    
+            
     <?php
 }
 $raceQuery->closeCursor();
