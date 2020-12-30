@@ -334,7 +334,7 @@ if (isset($_POST['adminAccountId'])
                     </select>
                     <input type="hidden" name="adminAccountId" value="<?php echo $adminAccountId ?>">
                     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
+                    <input name="finalEdit" class="btn btn-secondary btn-lg" type="submit" value="Modifier">
                 </form>
 
                 <hr>

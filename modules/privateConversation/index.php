@@ -80,7 +80,7 @@ if ($privateConversationRow > 0)
             
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="showConversation" class="btn btn-default form-control" value="Afficher la conversation">
+        <input type="submit" name="showConversation" class="btn btn-secondary btn-lg" value="Afficher la conversation">
     </form>
     
     <hr>
@@ -124,7 +124,7 @@ if ($characterRow > 0)
         
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="launchConversation" class="btn btn-default form-control" value="Démarrer une conversation">
+        <input type="submit" name="launchConversation" class="btn btn-secondary btn-lg" value="Démarrer une conversation">
     </form>
     
     <?php

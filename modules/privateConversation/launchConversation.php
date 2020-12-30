@@ -63,7 +63,7 @@ if (isset($_POST['privateConversationCharacterId'])
                     <hr>
                     
                     <form method="POST" action="index.php">
-                        <input type="submit" name="edit" class="btn btn-default form-control" value="Retour">
+                        <input type="submit" name="edit" class="btn btn-secondary btn-lg" value="Retour">
                     </form>
                     
                     <?php
@@ -78,7 +78,7 @@ if (isset($_POST['privateConversationCharacterId'])
                     <hr>
                     
                     <form method="POST" action="index.php">
-                        <input type="submit" name="back" class="btn btn-default form-control" value="Retour">
+                        <input type="submit" name="back" class="btn btn-secondary btn-lg" value="Retour">
                     </form>
                     
                     <?php

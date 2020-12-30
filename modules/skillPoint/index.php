@@ -14,47 +14,47 @@ Votre personnage possède <?php echo $characterSkillPoints; ?> PC (Point de comp
 
 <form method="POST" action="addHp.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addHp" class="btn btn-default form-control" value="+10 HP">
+	<input type="submit" name="addHp" class="btn btn-secondary btn-lg" value="+10 HP">
 </form>
 
 <form method="POST" action="addMp.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addMp" class="btn btn-default form-control" value="+1 MP">
+	<input type="submit" name="addMp" class="btn btn-secondary btn-lg" value="+1 MP">
 </form>
 
 <form method="POST" action="addStrength.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addStrength" class="btn btn-default form-control" value="+1 en force">
+	<input type="submit" name="addStrength" class="btn btn-secondary btn-lg" value="+1 en force">
 </form>
 
 <form method="POST" action="addMagic.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addMagic" class="btn btn-default form-control" value="+1 en magie">
+	<input type="submit" name="addMagic" class="btn btn-secondary btn-lg" value="+1 en magie">
 </form>
 
 <form method="POST" action="addAgility.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addAgility" class="btn btn-default form-control" value="+1 en agilité">
+	<input type="submit" name="addAgility" class="btn btn-secondary btn-lg" value="+1 en agilité">
 </form>
 
 <form method="POST" action="addDefense.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addDefense" class="btn btn-default form-control" value="+1 en défense">
+	<input type="submit" name="addDefense" class="btn btn-secondary btn-lg" value="+1 en défense">
 </form>
 
 <form method="POST" action="addDefenseMagic.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addDefenseMagic" class="btn btn-default form-control" value="+1 en défense magique">
+	<input type="submit" name="addDefenseMagic" class="btn btn-secondary btn-lg" value="+1 en défense magique">
 </form>
 
 <form method="POST" action="addWisdom.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addWisdom" class="btn btn-default form-control" value="+1 en sagesse">
+	<input type="submit" name="addWisdom" class="btn btn-secondary btn-lg" value="+1 en sagesse">
 </form>
 
 <form method="POST" action="addProspecting.php">
 	<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-	<input type="submit" name="addWisdom" class="btn btn-default form-control" value="+1 en prospection">
+	<input type="submit" name="addWisdom" class="btn btn-secondary btn-lg" value="+1 en prospection">
 </form>
 
 <?php require_once("../../html/footer.php"); ?>

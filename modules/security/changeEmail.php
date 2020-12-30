@@ -17,7 +17,7 @@ Changer votre adresse email<br />
 <form method="POST" action="changeEmailEnd.php">
     Email : <input type="text" class="form-control" name="accountEmail" value="<?php echo $accountEmail ?>" required>
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" name="edit" class="btn btn-default form-control" value="Modifier l'adresse email"><br>
+    <input type="submit" name="edit" class="btn btn-secondary btn-lg" value="Modifier l'adresse email"><br>
 </form>
 
 <?php

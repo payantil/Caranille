@@ -75,7 +75,7 @@ if ($tradeRow > 0)
 
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="manageTrade" class="btn btn-default form-control" value="Gérer l'échange">
+        <input type="submit" name="manageTrade" class="btn btn-secondary btn-lg" value="Gérer l'échange">
     </form>
 
     <?php

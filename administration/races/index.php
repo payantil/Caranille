@@ -31,7 +31,7 @@ $raceQuery = $bdd->query("SELECT * FROM car_races");
         
     </select>
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" name="manage" class="btn btn-default form-control" value="Gérer la classe">
+    <input type="submit" name="manage" class="btn btn-secondary btn-lg" value="Gérer la classe">
 </form>
 
 <hr>

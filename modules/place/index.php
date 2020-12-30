@@ -31,7 +31,7 @@ if ($shopPlaceRow > 0)
 
 <form method="POST" action="leavePlace.php">
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" name="leave" class="btn btn-default form-control" value="Quitter le lieu">
+    <input type="submit" name="leave" class="btn btn-secondary btn-lg" value="Quitter le lieu">
 </form>
 
 <?php require_once("../../html/footer.php"); ?>

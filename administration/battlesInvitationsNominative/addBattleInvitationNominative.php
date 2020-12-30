@@ -73,7 +73,7 @@ if (isset($_POST['token'])
 				Nom : <input type="text" name="adminBattleInvitationeName" class="form-control" placeholder="Nom" required>
 				Description : <br> <textarea class="form-control" name="adminBattleInvitationDescription" id="adminBattleInvitationDescription" rows="3"></textarea>
 				<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-				<input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
+				<input name="finalAdd" class="btn btn-secondary btn-lg" type="submit" value="Ajouter">
 			</form>
 			
 			<hr>

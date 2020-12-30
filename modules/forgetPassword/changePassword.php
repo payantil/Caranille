@@ -38,7 +38,7 @@ if (isset($_POST['accountCode'])
                 Confirmez : <input type="password" class="form-control" name="accountPasswordConfirm" required>
                 <input type="hidden" class="btn btn-secondary btn-lg" name="accountCode" value="<?php echo $accountCode ?>">
                 <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <input type="submit" name="changePasswordEnd" class="btn btn-default form-control" value="Se connecter">
+                <input type="submit" name="changePasswordEnd" class="btn btn-secondary btn-lg" value="Se connecter">
             </form>
 
             <?php
@@ -53,7 +53,7 @@ if (isset($_POST['accountCode'])
             <hr>
 
             <form method="POST" action="../../modules/forgetPassword/enterCode.php">
-                <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
             </form>
 
             <?php

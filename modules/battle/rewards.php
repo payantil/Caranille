@@ -64,7 +64,7 @@ if ($battleOpponentHpRemaining <= 0 && $characterHpMin <= 0)
     <hr>
 
     <form method="POST" action="../../modules/dungeon/index.php">
-        <input type="submit" name="escape" class="btn btn-default form-control" value="Continuer"><br />
+        <input type="submit" name="escape" class="btn btn-secondary btn-lg" value="Continuer"><br />
     </form>
     
     <?php
@@ -363,7 +363,7 @@ if ($battleOpponentHpRemaining <= 0 && $characterHpMin > 0)
     <hr>
 
     <form method="POST" action="../../modules/dungeon/index.php">
-        <input type="submit" name="escape" class="btn btn-default form-control" value="Continuer"><br />
+        <input type="submit" name="escape" class="btn btn-secondary btn-lg" value="Continuer"><br />
     </form>
     
     <?php
@@ -434,7 +434,7 @@ if ($characterHpMin <= 0 && $battleOpponentHpRemaining > 0)
     <hr>
 
     <form method="POST" action="../../modules/place/index.php">
-        <input type="submit" name="escape" class="btn btn-default form-control" value="Continuer"><br />
+        <input type="submit" name="escape" class="btn btn-secondary btn-lg" value="Continuer"><br />
     </form>
     
     <?php

@@ -131,7 +131,7 @@ if (isset($_POST['token'])
                         Ce monstre n'est plus disponible !
 
                         <form method="POST" action="index.php">
-                            <input type="submit" name="back" class="btn btn-default form-control" value="Retour"><br />
+                            <input type="submit" name="back" class="btn btn-secondary btn-lg" value="Retour"><br />
                         </form>
 
                         <?php

@@ -63,7 +63,7 @@ $configurationQuery->closeCursor();
     
     </select>
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input name="edit" class="btn btn-default form-control" type="submit" value="Modifier">
+    <input name="edit" class="btn btn-secondary btn-lg" type="submit" value="Modifier">
 </form>
 
 <?php require_once("../html/footer.php");

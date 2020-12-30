@@ -51,7 +51,7 @@ if ($placeRow >= 1)
             
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="enter" class="btn btn-default form-control" value="Entrer dans le lieu">
+        <input type="submit" name="enter" class="btn btn-secondary btn-lg" value="Entrer dans le lieu">
     </form>
     
     <?php

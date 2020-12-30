@@ -51,7 +51,7 @@ if (isset($_POST['accountEmail'])
             <hr>
 
             <form method="POST" action="index.php">
-                <input type="submit" name="continue" class="btn btn-default form-control" value="Continuer">
+                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Continuer">
             </form>
                 
             <?php
@@ -65,7 +65,7 @@ if (isset($_POST['accountEmail'])
             <hr>
 
             <form method="POST" action="changeEmail.php">
-                <input type="submit" name="continue" class="btn btn-default form-control" value="Continuer">
+                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Continuer">
             </form>
                 
             <?php

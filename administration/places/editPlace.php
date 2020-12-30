@@ -85,7 +85,7 @@ if (isset($_POST['adminPlaceId'])
                     </select>
                     <input type="hidden" name="adminPlaceId" value="<?php echo $adminPlaceId ?>">
                     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
+                    <input name="finalEdit" class="btn btn-secondary btn-lg" type="submit" value="Modifier">
                 </form>
                 
                 <hr>

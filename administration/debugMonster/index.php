@@ -49,7 +49,7 @@ if ($monsterRow > 0)
             
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="test" class="btn btn-default form-control" value="Tester le monstre">
+        <input type="submit" name="test" class="btn btn-secondary btn-lg" value="Tester le monstre">
     </form>
     
     <?php

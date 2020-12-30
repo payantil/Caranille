@@ -59,7 +59,7 @@ if (isset($_POST['token'])
 				Taux d'obtention (en %) (Déjà vaincu) : <input type="nulber" name="adminBattleInvitationeRateOld" class="form-control" placeholder="Taux d'obtention invitation (en %)" value="0" required>
 				Taux d'obtention (en %) (Jamais vaincu) : <input type="nulber" name="adminBattleInvitationeRateNew" class="form-control" placeholder="Taux d'obtention invitation (en %)" value="0" required>
 				<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-				<input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
+				<input name="finalAdd" class="btn btn-secondary btn-lg" type="submit" value="Ajouter">
 			</form>
 			
 			<hr>

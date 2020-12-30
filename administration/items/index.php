@@ -38,7 +38,7 @@ if ($itemRow > 0)
             ?>
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="manage" class="btn btn-default form-control" value="Gérer l'objet">
+        <input type="submit" name="manage" class="btn btn-secondary btn-lg" value="Gérer l'objet">
     </form>
     <?php
 }

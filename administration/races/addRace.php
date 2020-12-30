@@ -38,7 +38,7 @@ if (isset($_POST['token'])
             Sagesse par niveau : <input type="number" name="adminRaceWisdomBonus" class="form-control" placeholder="Sagesse par niveau" required>
             Prospection par niveau : <input type="number" name="adminRaceProspectingBonus" class="form-control" placeholder="Prospection par niveau" required>
             <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-            <input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
+            <input name="finalAdd" class="btn btn-secondary btn-lg" type="submit" value="Ajouter">
         </form>
         
         <hr>

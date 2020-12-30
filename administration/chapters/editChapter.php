@@ -100,7 +100,7 @@ if (isset($_POST['adminChapterId'])
                     Conclusion :  <br> <textarea class="form-control" name="adminChapterEnding" id="adminChapterEnding" rows="3" required><?php echo $adminChapterEnding; ?></textarea>
                     <input type="hidden" name="adminChapterId" value="<?php echo $adminChapterId ?>">
                     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
+                    <input name="finalEdit" class="btn btn-secondary btn-lg" type="submit" value="Modifier">
                 </form>
                 
                 <hr>

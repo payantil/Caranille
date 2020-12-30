@@ -75,8 +75,8 @@ if (isset($_POST['adminShopItemShopId'])
                         </select>
                         <input type="hidden" name="adminShopItemShopId" value="<?php echo $adminShopItemShopId ?>">
                         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" name="edit" class="btn btn-default form-control" value="Modifier la réduction">
-                        <input type="submit" name="delete" class="btn btn-default form-control" value="Retirer l'article">
+                        <input type="submit" name="edit" class="btn btn-secondary btn-lg" value="Modifier la réduction">
+                        <input type="submit" name="delete" class="btn btn-secondary btn-lg" value="Retirer l'article">
                     </form>
                     
                     <hr>
@@ -121,7 +121,7 @@ if (isset($_POST['adminShopItemShopId'])
                         Réduction (De 0 à 100%) <input type="number" name="adminShopItemDiscount" class="form-control" placeholder="Réduction (De 0 à 100%)" value="0" required>
                         <input type="hidden" name="adminShopItemShopId" value="<?php echo $adminShopItemShopId ?>">
                         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" name="add" class="btn btn-default form-control" value="Ajouter l'article">
+                        <input type="submit" name="add" class="btn btn-secondary btn-lg" value="Ajouter l'article">
                     </form>
                     
                     <?php

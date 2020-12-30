@@ -35,8 +35,8 @@ require_once("../html/header.php");
 
     </select>
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" name="viewPicture" class="btn btn-default form-control" value="Afficher l'image">
-    <input type="submit" name="deletePicture" class="btn btn-default form-control" value="Supprimer l'image">
+    <input type="submit" name="viewPicture" class="btn btn-secondary btn-lg" value="Afficher l'image">
+    <input type="submit" name="deletePicture" class="btn btn-secondary btn-lg" value="Supprimer l'image">
 </form>
 
 <hr>
@@ -46,7 +46,7 @@ require_once("../html/header.php");
     <input type="hidden" name="MAX_FILE_SIZE" value="1000000">
     <input type="file" name="picture">
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input name="upload" class="btn btn-default form-control" type="submit" value="Envoyer l'image">
+    <input name="upload" class="btn btn-secondary btn-lg" type="submit" value="Envoyer l'image">
 </form>
 
 <?php require_once("../html/footer.php");

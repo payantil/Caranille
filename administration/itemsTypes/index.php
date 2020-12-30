@@ -32,7 +32,7 @@ $equipmentTypeQuery = $bdd->query("SELECT * FROM car_items_types");
 
     </select>
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" name="edit" class="btn btn-default form-control" value="Modifier le type de l'objet">
+    <input type="submit" name="edit" class="btn btn-secondary btn-lg" value="Modifier le type de l'objet">
 </form>
 
 <?php require_once("../html/footer.php");

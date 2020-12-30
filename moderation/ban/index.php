@@ -80,7 +80,7 @@ if ($accountBanRow > 0)
         
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="unban" class="btn btn-default form-control" value="Débannir le compte">
+        <input type="submit" name="unban" class="btn btn-secondary btn-lg" value="Débannir le compte">
     </form>
 
     <?php

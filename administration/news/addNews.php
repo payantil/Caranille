@@ -29,7 +29,7 @@ if (isset($_POST['token'])
             Titre : <input type="text" name="adminNewsTitle" class="form-control" placeholder="Titre" required>
             Message : <br> <textarea class="form-control" name="adminNewsMessage" id="adminNewsMessage" rows="3" required></textarea>
             <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-            <input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
+            <input name="finalAdd" class="btn btn-secondary btn-lg" type="submit" value="Ajouter">
         </form>
         
         <hr>

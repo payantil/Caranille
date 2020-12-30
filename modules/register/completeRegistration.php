@@ -334,7 +334,7 @@ if (isset($_POST['accountPseudo'])
                                     <hr>
 
                                     <form method="POST" action="../../index.php">
-                                        <input type="submit" name="continue" class="btn btn-default form-control" value="Continuer">
+                                        <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Continuer">
                                     </form>
                                         
                                     <?php
@@ -356,7 +356,7 @@ if (isset($_POST['accountPseudo'])
                                 <hr>
 
                                 <form method="POST" action="../../modules/register/index.php">
-                                    <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                                    <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
                                 </form>
 
                                 <?php
@@ -372,7 +372,7 @@ if (isset($_POST['accountPseudo'])
                             <hr>
 
                             <form method="POST" action="../../modules/register/index.php">
-                                <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
                             </form>
 
                             <?php
@@ -388,7 +388,7 @@ if (isset($_POST['accountPseudo'])
                         <hr>
 
                         <form method="POST" action="../../modules/register/index.php">
-                            <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                            <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
                         </form>
 
                         <?php
@@ -404,7 +404,7 @@ if (isset($_POST['accountPseudo'])
                     <hr>
 
                     <form method="POST" action="../../modules/register/index.php">
-                        <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                        <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
                     </form>
 
                     <?php
@@ -420,7 +420,7 @@ if (isset($_POST['accountPseudo'])
                 <hr>
 
                 <form method="POST" action="../../modules/register/index.php">
-                    <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                    <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
                 </form>
 
                 <?php

@@ -40,7 +40,7 @@ if (isset($_POST['token'])
             Prix d'achat : <input type="number" name="adminItemPurchasePrice" class="form-control" placeholder="Prix d'achat" value="0" required>
             Prix de vente : <input type="number" name="adminItemSalePrice" class="form-control" placeholder="Prix de vente" value="0" required>
             <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-            <input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
+            <input name="finalAdd" class="btn btn-secondary btn-lg" type="submit" value="Ajouter">
         </form>
         
         <hr>

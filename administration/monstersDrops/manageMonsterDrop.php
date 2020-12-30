@@ -75,8 +75,8 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                         </select>
                         <input type="hidden" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
                         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" name="edit" class="btn btn-default form-control" value="Modifier">
-                        <input type="submit" name="delete" class="btn btn-default form-control" value="Retirer">
+                        <input type="submit" name="edit" class="btn btn-secondary btn-lg" value="Modifier">
+                        <input type="submit" name="delete" class="btn btn-secondary btn-lg" value="Retirer">
                     </form>
 
                     <hr>
@@ -130,7 +130,7 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                         </select>
                         <input type="hidden" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
                         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" name="add" class="btn btn-default form-control" value="Ajouter cet équipement/objet">
+                        <input type="submit" name="add" class="btn btn-secondary btn-lg" value="Ajouter cet équipement/objet">
                     </form>
                     
                     <?php

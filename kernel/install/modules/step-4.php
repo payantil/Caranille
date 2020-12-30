@@ -72,7 +72,7 @@ if (isset($_POST['installationType'])
                 <iframe src="../../../CGU.txt" width="100%" height="100%"></iframe>
                 En vous inscrivant vous acceptez le présent règlement !
                 <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <input type="submit" name="register" class="btn btn-default form-control" value="Je créer mon compte">
+                <input type="submit" name="register" class="btn btn-secondary btn-lg" value="Je créer mon compte">
             </form>
 
             <?php

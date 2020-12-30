@@ -55,7 +55,7 @@ if (isset($_POST['accountEmail'])
             <hr>
 
             <form method="POST" action="../../modules/login/index.php">
-                <input type="submit" name="continue" class="btn btn-default form-control" value="Se connecter">
+                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Se connecter">
             </form>
 
             <?php
@@ -70,7 +70,7 @@ if (isset($_POST['accountEmail'])
             <hr>
 
             <form method="POST" action="../../modules/register/index.php">
-                <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
             </form>
 
             <?php

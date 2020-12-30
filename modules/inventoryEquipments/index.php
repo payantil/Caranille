@@ -61,7 +61,7 @@ if (isset($_POST['token']))
                         
                 </select>
                 <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <center><input type="submit" name="viewEquipment" class="btn btn-default form-control" value="Plus d'informations"></center>
+                <center><input type="submit" name="viewEquipment" class="btn btn-secondary btn-lg" value="Plus d'informations"></center>
             </form>
             
             <?php
@@ -116,7 +116,7 @@ if (isset($_POST['token']))
                         
                 </select>
                 <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <center><input type="submit" name="viewEquipment" class="btn btn-default form-control" value="Plus d'informations"></center>
+                <center><input type="submit" name="viewEquipment" class="btn btn-secondary btn-lg" value="Plus d'informations"></center>
             </form>
             
             <?php

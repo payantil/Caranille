@@ -54,7 +54,7 @@ if ($marketRow > 0)
 
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="viewAllOffers" class="btn btn-default form-control" value="Afficher les offres">
+        <input type="submit" name="viewAllOffers" class="btn btn-secondary btn-lg" value="Afficher les offres">
     </form>
 
     <?php

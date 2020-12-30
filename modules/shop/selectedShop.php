@@ -100,7 +100,7 @@ if (isset($_POST['token'])
                         </select>
                         <input type="hidden" name="shopId" value="<?php echo $shopId ?>">
                         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" name="view" class="btn btn-default form-control" value="Détail/Achat">
+                        <input type="submit" name="view" class="btn btn-secondary btn-lg" value="Détail/Achat">
                     </form>
                     
                     <hr>

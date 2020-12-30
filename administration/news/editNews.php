@@ -59,7 +59,7 @@ if (isset($_POST['adminNewsId'])
                     Message : <br> <textarea class="form-control" name="adminNewsMessage" id="adminNewsMessage" rows="3" required><?php echo $adminNewsMessage ?></textarea>
                     <input type="hidden" name="adminNewsId" value="<?php echo $adminNewsId ?>">
                     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
+                    <input name="finalEdit" class="btn btn-secondary btn-lg" type="submit" value="Modifier">
                 </form>
                 
                 <hr>

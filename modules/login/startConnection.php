@@ -94,7 +94,7 @@ if (isset($_POST['accountPseudo'])
                             <hr>
 
                             <form method="POST" action="../../modules/main/index.php">
-                                <input type="submit" name="continue" class="btn btn-default form-control" value="Retourner à l'accueil">
+                                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Retourner à l'accueil">
                             </form>
 
                             <?php
@@ -111,7 +111,7 @@ if (isset($_POST['accountPseudo'])
                     <hr>
 
                     <form method="POST" action="../../modules/main/index.php">
-                        <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                        <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
                     </form>
 
                     <?php

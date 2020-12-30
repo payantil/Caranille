@@ -56,7 +56,7 @@ if (isset($_POST['token']))
                         
                 </select>
                 <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <input type="submit" name="viewItem" class="btn btn-default form-control" value="Plus d'information">
+                <input type="submit" name="viewItem" class="btn btn-secondary btn-lg" value="Plus d'information">
             </form>
             
             <?php

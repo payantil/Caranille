@@ -44,7 +44,7 @@ if (isset($_POST['secretQuestion'])
             <hr>
 
             <form method="POST" action="index.php">
-                <input type="submit" name="continue" class="btn btn-default form-control" value="Continuer">
+                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Continuer">
             </form>
                 
             <?php
@@ -59,7 +59,7 @@ if (isset($_POST['secretQuestion'])
         
             <form method="POST" action="index.php">
                 <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <input type="submit" name="back" class="btn btn-default form-control" value="Retour"><br>
+                <input type="submit" name="back" class="btn btn-secondary btn-lg" value="Retour"><br>
             </form>
         
             <?php

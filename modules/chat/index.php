@@ -86,7 +86,7 @@ if ($chatRow > 0)
                         <form method="POST" action="deleteMessage.php">
                             <input type="hidden" name="chatMessageId" value="<?php echo $chatMessageId ?>">
                             <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit"name="deleteMessage"  class="btn btn-default form-control" value="X">
+                            <input type="submit"name="deleteMessage"  class="btn btn-secondary btn-lg" value="X">
                         </form>
                     </td>
                     

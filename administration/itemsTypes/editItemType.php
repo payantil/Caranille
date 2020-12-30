@@ -54,7 +54,7 @@ if (isset($_POST['adminItemTypeId'])
                     Type d'objet affiché : <input type="text" name="adminItemTypeNameShow" class="form-control" placeholder="Titre" value="<?php echo $adminItemTypeNameShow ?>" required>
                     <input type="hidden" name="adminItemTypeId" value="<?php echo $adminItemTypeId ?>">
                     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
+                    <input name="finalEdit" class="btn btn-secondary btn-lg" type="submit" value="Modifier">
                 </form>
                 
                 <hr>

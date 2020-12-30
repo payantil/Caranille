@@ -37,7 +37,7 @@ if ($chapterRow > 0)
 
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <center><input type="submit" name="viewChapter" class="btn btn-default form-control" value="Voir le chapitre"></center>
+        <center><input type="submit" name="viewChapter" class="btn btn-secondary btn-lg" value="Voir le chapitre"></center>
     </form>
     
     <?php

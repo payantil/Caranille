@@ -77,7 +77,7 @@ if (isset($_POST['accountPseudo'])
 
             <form method="POST" action="enterCode.php">
                 <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <input type="submit" name="enterCode" class="btn btn-default form-control" value="Saisir le code">
+                <input type="submit" name="enterCode" class="btn btn-secondary btn-lg" value="Saisir le code">
             </form>
                 
             <?php
@@ -92,7 +92,7 @@ if (isset($_POST['accountPseudo'])
             <hr>
 
             <form method="POST" action="../../modules/forgetPassword/index.php">
-                <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
             </form>
 
             <?php

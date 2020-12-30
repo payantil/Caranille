@@ -191,7 +191,7 @@ if (isset($_POST['tradeId'])
                         </select>
                         <input type="hidden" name="tradeId" value="<?php echo $tradeId ?>">
                         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" name="removeItem" class="btn btn-default form-control" value="Retirer l'objet">
+                        <input type="submit" name="removeItem" class="btn btn-secondary btn-lg" value="Retirer l'objet">
                     </form>
                     
                     <?php

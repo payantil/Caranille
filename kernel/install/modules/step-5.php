@@ -324,7 +324,7 @@ if (isset($_POST['accountPseudo'])
                                     <form method="POST" action="step-4.php">
                                         <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
                                         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                        <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
+                                        <input type="submit" name="retry" class="btn btn-secondary btn-lg" value="Recommencer">
                                     </form>
                 
                                     <?php
@@ -343,7 +343,7 @@ if (isset($_POST['accountPseudo'])
                                 <form method="POST" action="step-4.php">
                                     <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
                                     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                    <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
+                                    <input type="submit" name="retry" class="btn btn-secondary btn-lg" value="Recommencer">
                                 </form>
             
                                 <?php
@@ -361,7 +361,7 @@ if (isset($_POST['accountPseudo'])
                             <form method="POST" action="step-4.php">
                                 <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
                                 <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
+                                <input type="submit" name="continue" class="btn btn-secondary btn-lg" value="Recommencer">
                             </form>
 
                             <?php
@@ -379,7 +379,7 @@ if (isset($_POST['accountPseudo'])
                         <form method="POST" action="step-4.php">
                             <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
                             <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
+                            <input type="submit" name="retry" class="btn btn-secondary btn-lg" value="Recommencer">
                         </form>
 
                         <?php
@@ -397,7 +397,7 @@ if (isset($_POST['accountPseudo'])
                     <form method="POST" action="step-4.php">
                         <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
                         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
+                        <input type="submit" name="retry" class="btn btn-secondary btn-lg" value="Recommencer">
                     </form>
     
                     <?php
@@ -415,7 +415,7 @@ if (isset($_POST['accountPseudo'])
                 <form method="POST" action="step-4.php">
                     <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
                     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
+                    <input type="submit" name="retry" class="btn btn-secondary btn-lg" value="Recommencer">
                 </form>
 
                 <?php

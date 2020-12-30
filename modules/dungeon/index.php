@@ -44,7 +44,7 @@ if ($monsterLimitedQueryRow > 0)
 
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="enter" class="btn btn-default form-control" value="Lancer le combat">
+        <input type="submit" name="enter" class="btn btn-secondary btn-lg" value="Lancer le combat">
     </form>
 
     <hr>
@@ -86,7 +86,7 @@ if ($monsterClassicQueryRow > 0)
  
         </select>
         <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" name="enter" class="btn btn-default form-control" value="Lancer le combat">
+        <input type="submit" name="enter" class="btn btn-secondary btn-lg" value="Lancer le combat">
     </form>
     
     <?php

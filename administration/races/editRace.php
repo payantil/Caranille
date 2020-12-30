@@ -76,7 +76,7 @@ if (isset($_POST['adminRaceId'])
                     Prospection par niveau : <input type="number" name="adminRaceProspectingBonus" class="form-control" placeholder="Prospection par niveau" value="<?php echo $adminRaceProspectingBonus ?>" required>
                     <input type="hidden" name="adminRaceId" value="<?php echo $adminRaceId ?>">
                     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
+                    <input name="finalEdit" class="btn btn-secondary btn-lg" type="submit" value="Modifier">
                 </form>
                 
                 <hr>
