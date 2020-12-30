@@ -25,14 +25,14 @@
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../modules/main/index.php">Actualité</a>
-							<a class="dropdown-item" href="../../modules/presentation/index.php">Présentation</a>
-							<a class="dropdown-item" href="../../modules/race/index.php">Les classes</a>
-							<a class="dropdown-item" href="../../modules/contact/index.php">Contact</a>
-							<a class="dropdown-item" href="../../modules/about/index.php">A propos</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Accueil</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../modules/main/index.php">Actualité</a></li>
+							<li><a class="dropdown-item" href="../../modules/presentation/index.php">Présentation</a></li>
+							<li><a class="dropdown-item" href="../../modules/race/index.php">Les classes</a></li>
+							<li><a class="dropdown-item" href="../../modules/contact/index.php">Contact</a></li>
+							<li><a class="dropdown-item" href="../../modules/about/index.php">A propos</a></li>
+						</ul>
 					</li>
 
 					<?php
@@ -42,27 +42,27 @@
 						?>
 
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personnage (<?php echo $battleInvitationRow ?>)</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown01">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Personnage (<?php echo $battleInvitationRow ?>)</a>
+							<ul class="dropdown-menu" aria-labelledby="dropdown08">
 								<?php
 								//Si le joueur possèdes une invtation de combaz
 								if ($battleInvitationRow > 0)
 								{
 									?>
-									<a class="dropdown-item" href="../../modules/battleInvitation/index.php">Invitation de combat (<?php echo $battleInvitationRow ?>)</a>
+									<li><a class="dropdown-item" href="../../modules/battleInvitation/index.php">Invitation de combat (<?php echo $battleInvitationRow ?>)</a></li>
 									<?php
 								}
 								?>
-								<a class="dropdown-item" href="../../modules/character/index.php">Fiche complète</a>
-								<a class="dropdown-item" href="../../modules/inventory/index.php">Inventaire</a>
-								<a class="dropdown-item" href="../../modules/skillPoint/index.php">Points de compétences</a>
-							</div>
+								<li><a class="dropdown-item" href="../../modules/character/index.php">Fiche complète</a></li>
+								<li><a class="dropdown-item" href="../../modules/inventory/index.php">Inventaire</a></li>
+								<li><a class="dropdown-item" href="../../modules/skillPoint/index.php">Points de compétences</a></li>
+							</ul>
 						</li>
 								
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aventure</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown01">
-								<a class="dropdown-item" href="../../modules/story/index.php">Continuer l'aventure</a>
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Aventure</a>
+							<ul class="dropdown-menu" aria-labelledby="dropdown08">
+								<li><a class="dropdown-item" href="../../modules/story/index.php">Continuer l'aventure</a></li>
 
 								<?php
 								//Si characterplaceId est supérieur ou égal à un le joueur est dans un lieu. On met le raccourcit vers le lieu
@@ -70,7 +70,7 @@
 								{
 									?>
 
-									<a class="dropdown-item" href="../../modules/place/index.php">Lieu actuel</a>
+									<li><a class="dropdown-item" href="../../modules/place/index.php">Lieu actuel</a></li>
 
 									<?php
 								}
@@ -79,25 +79,25 @@
 								{
 									?>
 
-									<a class="dropdown-item" href="../../modules/map/index.php">Carte du monde</a>
+									<li><a class="dropdown-item" href="../../modules/map/index.php">Carte du monde</a></li>
 
 									<?php
 								}
 								?>
-								<a class="dropdown-item" href="../../modules/bestiary/index.php">Bestiaire</a>
-								<a class="dropdown-item" href="../../modules/travelogue/index.php">Carnet de voyage</a>
-							</div>
+								<li><a class="dropdown-item" href="../../modules/bestiary/index.php">Bestiaire</a></li>
+								<li><a class="dropdown-item" href="../../modules/travelogue/index.php">Carnet de voyage</a></li>
+							</ul>
 						</li>
 								
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Communauté (<?php echo $privateConversationNumberRow + $tradeRequestRow + $tradeRow + $marketOfferQuantityRow ?>)</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown01">
-								<a class="dropdown-item" href="../../modules/arena/index.php">Arène (PVP)</a>
-								<a class="dropdown-item" href="../../modules/chat/index.php">Chat</a>
-								<a class="dropdown-item" href="../../modules/privateConversation/index.php">Messagerie privée (<?php echo $privateConversationNumberRow ?>)</a>
-								<a class="dropdown-item" href="../../modules/tradeRequest/index.php">Place des échanges (<?php echo $tradeRequestRow + $tradeRow ?>)</a>
-								<a class="dropdown-item" href="../../modules/market/index.php">Le marché (<?php echo $marketOfferQuantityRow ?>)</a>
-							</div>
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Communauté (<?php echo $privateConversationNumberRow + $tradeRequestRow + $tradeRow + $marketOfferQuantityRow ?>)</a>
+							<ul class="dropdown-menu" aria-labelledby="dropdown08">
+								<li><a class="dropdown-item" href="../../modules/arena/index.php">Arène (PVP)</a></li>
+								<li><a class="dropdown-item" href="../../modules/chat/index.php">Chat</a></li>
+								<li><a class="dropdown-item" href="../../modules/privateConversation/index.php">Messagerie privée (<?php echo $privateConversationNumberRow ?>)</a></li>
+								<li><a class="dropdown-item" href="../../modules/tradeRequest/index.php">Place des échanges (<?php echo $tradeRequestRow + $tradeRow ?>)</a></li>
+								<li><a class="dropdown-item" href="../../modules/market/index.php">Le marché (<?php echo $marketOfferQuantityRow ?>)</a></li>
+							</ul>
 						</li>      
 					<?php
 					}
@@ -105,16 +105,16 @@
 				</ul>
 				<ul class="navbar-nav pull-right"> 
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mon compte <?php if(isset($_SESSION['account']['id'])) { echo "($totalNotification)"; } ?></a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Mon compte <?php if(isset($_SESSION['account']['id'])) { echo "($totalNotification)"; } ?></a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
 							<?php
 							//Si le joueur est connecté on lui donne la possibilité de se déconnecter
 							if (isset($_SESSION['account']['id']))
 							{
 								?>
 								
-								<a class="dropdown-item" href="../../modules/notification/index.php">Notifications (<?php echo $notificationNumberRow ?>)</a>
-								<a class="dropdown-item" href="../../modules/security/index.php">Sécurité</a>
+								<li><a class="dropdown-item" href="../../modules/notification/index.php">Notifications (<?php echo $notificationNumberRow ?>)</a></li>
+								<li><a class="dropdown-item" href="../../modules/security/index.php">Sécurité</a></li>
 								
 								<?php
 								switch ($accountAccess)
@@ -126,7 +126,7 @@
 									case 1:
 									?>
 
-									<a class="dropdown-item" href="../../moderation/main/index.php">Modération</a>
+									<li><a class="dropdown-item" href="../../moderation/main/index.php">Modération</a></li>
 
 									<?php
 									break;
@@ -134,15 +134,15 @@
 									case 2:
 									?>
 
-									<a class="dropdown-item" href="../../moderation/main/index.php">Modération</a> 
-									<a class="dropdown-item" href="../../administration/main/index.php">Administration</a>
+									<li><a class="dropdown-item" href="../../moderation/main/index.php">Modération</a></li>
+									<li><a class="dropdown-item" href="../../administration/main/index.php">Administration</a></li>
 									
 									<?php
 									break;
 								}
 								?>
 															
-								<a class="dropdown-item" href="../../modules/logout/index.php">Déconnexion</a>
+								<li><a class="dropdown-item" href="../../modules/logout/index.php">Déconnexion</a></li>
 									
 								<?php
 							}
@@ -151,14 +151,14 @@
 							{
 								?>
 
-								<a class="dropdown-item" href="../../modules/login/index.php">Connexion</a>
-								<a class="dropdown-item" href="../../modules/register/index.php">Inscription</a>
-								<a class="dropdown-item" href="../../modules/forgetPassword/enterCode.php">Code</a>
+								<li><a class="dropdown-item" href="../../modules/login/index.php">Connexion</a></li>
+								<li><a class="dropdown-item" href="../../modules/register/index.php">Inscription</a></li>
+								<li><a class="dropdown-item" href="../../modules/forgetPassword/enterCode.php">Code</a></li>
 									
 								<?php
 							}
 							?>
-						</div>
+						</ul>
 					</li>
 				</ul>
 			</div>

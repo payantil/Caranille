@@ -25,65 +25,65 @@
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ressources</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../administration/accounts/index.php">Comptes/Personnages</a>
-							<a class="dropdown-item" href="../../administration/equipments/index.php">Equipements</a>
-							<a class="dropdown-item" href="../../administration/items/index.php">Objets</a>
-							<a class="dropdown-item" href="../../administration/monsters/index.php">Monstres</a>
-							<a class="dropdown-item" href="../../administration/parchments/index.php">Parchemins</a>
-							<a class="dropdown-item" href="../../administration/places/index.php">Lieux</a>
-							<a class="dropdown-item" href="../../administration/races/index.php">Classes</a>
-							<a class="dropdown-item" href="../../administration/shops/index.php">Magasins</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../administration/accounts/index.php">Comptes/Personnages</a></li>
+							<li><a class="dropdown-item" href="../../administration/equipments/index.php">Equipements</a></li>
+							<li><a class="dropdown-item" href="../../administration/items/index.php">Objets</a></li>
+							<li><a class="dropdown-item" href="../../administration/monsters/index.php">Monstres</a></li>
+							<li><a class="dropdown-item" href="../../administration/parchments/index.php">Parchemins</a></li>
+							<li><a class="dropdown-item" href="../../administration/places/index.php">Lieux</a></li>
+							<li><a class="dropdown-item" href="../../administration/races/index.php">Classes</a></li>
+							<li><a class="dropdown-item" href="../../administration/shops/index.php">Magasins</a></li>
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scénario</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../administration/chapters/index.php">Chapitres</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Scénario</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../administration/chapters/index.php">Chapitres</a></li>
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Communication</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../administration/news/index.php">News</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Communication</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../administration/news/index.php">News</a></li>
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Événements</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../administration/battlesInvitationsNominative/index.php">Invitation de combat nominative</a>
-							<a class="dropdown-item" href="../../administration/battlesInvitationsRandom/index.php">Invitation de combat aléatoire</a>
-							<a class="dropdown-item" href="../../administration/offerExperience/index.php">Offrir expérience</a>
-							<a class="dropdown-item" href="../../administration/offerGold/index.php">Offrir pièce(s) d'or</a>
-							<a class="dropdown-item" href="../../administration/offerItem/index.php">Offrir objet</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Evénement</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../administration/battlesInvitationsNominative/index.php">Invitation de combat nominative</a></li>
+							<li><a class="dropdown-item" href="../../administration/battlesInvitationsRandom/index.php">Invitation de combat aléatoire</a></li>
+							<li><a class="dropdown-item" href="../../administration/offerExperience/index.php">Offrir expérience</a></li>
+							<li><a class="dropdown-item" href="../../administration/offerGold/index.php">Offrir pièce(s) d'or</a></li>
+							<li><a class="dropdown-item" href="../../administration/offerItem/index.php">Offrir objet</a></li>
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Configuration</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../administration/configuration/index.php">Jeu</a>
-							<a class="dropdown-item" href="../../administration/itemsTypes/index.php">Types d'objets</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Configuration</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../administration/configuration/index.php">Jeu</a></li>
+							<li><a class="dropdown-item" href="../../administration/itemsTypes/index.php">Types d'objets</a></li>
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Débug</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../administration/debugLevel/index.php">Modifier mon niveau</a>
-							<a class="dropdown-item" href="../../administration/debugMonster/index.php">Tester un monstre</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Debug</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../administration/debugLevel/index.php">Modifier mon niveau</a></li>
+							<li><a class="dropdown-item" href="../../administration/debugMonster/index.php">Tester un monstre</a></li>
+						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galerie</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../administration/picturesEquipments/index.php">Equipements</a>
-							<a class="dropdown-item" href="../../administration/picturesItems/index.php">Objets</a>
-							<a class="dropdown-item" href="../../administration/picturesMonsters/index.php">Monstres</a>
-							<a class="dropdown-item" href="../../administration/picturesParchments/index.php">Parchemins</a>
-							<a class="dropdown-item" href="../../administration/picturesPlaces/index.php">Lieux</a>
-							<a class="dropdown-item" href="../../administration/picturesRaces/index.php">Classes</a>
-							<a class="dropdown-item" href="../../administration/picturesShops/index.php">Magasins</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Galerie</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../administration/picturesEquipments/index.php">Equipements</a></li>
+							<li><a class="dropdown-item" href="../../administration/picturesItems/index.php">Objets</a></li>
+							<li><a class="dropdown-item" href="../../administration/picturesMonsters/index.php">Monstres</a></li>
+							<li><a class="dropdown-item" href="../../administration/picturesParchments/index.php">Parchemins</a></li>
+							<li><a class="dropdown-item" href="../../administration/picturesPlaces/index.php">Lieux</a></li>
+							<li><a class="dropdown-item" href="../../administration/picturesRaces/index.php">Classes</a></li>
+							<li><a class="dropdown-item" href="../../administration/picturesShops/index.php">Magasins</a></li>
+						</ul>
 					</li>
 				</ul>
 				<ul class="navbar-nav pull-right"> 
