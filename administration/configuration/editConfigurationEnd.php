@@ -106,18 +106,18 @@ if (isset($_POST['adminGameName'])
                     characterMagicSkillPoints = 0,
                     characterMagicEquipments = 0,
                     characterMagicTotal = 1,
-                    characterAgility = 1,
+                    characterAgility = 0,
                     characterAgilitySkillPoints = 0,
                     characterAgilityEquipments = 0,
-                    characterAgilityTotal = 1,
-                    characterDefense = 1,
+                    characterAgilityTotal = 0,
+                    characterDefense = 0,
                     characterDefenseSkillPoints = 0,
                     characterDefenseEquipments = 0,
-                    characterDefenseTotal = 1,
-                    characterDefenseMagic = 1,
+                    characterDefenseTotal = 0,
+                    characterDefenseMagic = 0,
                     characterDefenseMagicSkillPoints = 0,
                     characterDefenseMagicEquipments = 0,
-                    characterDefenseMagicTotal = 1, 
+                    characterDefenseMagicTotal = 0, 
                     characterWisdom = 0,
                     characterWisdomSkillPoints = 0,
                     characterWisdomEquipments = 0,
@@ -153,9 +153,8 @@ if (isset($_POST['adminGameName'])
                 }
 
                 //On fait une recherche de tous les équipements qui sont équipé pour les déséquipper
-                $inventoryQuery = $bdd->prepare("SELECT * FROM car_inventory 
+                $inventoryQuery = $bdd->query("SELECT * FROM car_inventory 
                 WHERE inventoryEquipped = '1'");
-                $inventoryQuery->execute([$characterId]);
 
                 //On fait une boucle sur le ou les résultats obtenu pour récupérer les informations
                 while ($inventory = $inventoryQuery->fetch())
