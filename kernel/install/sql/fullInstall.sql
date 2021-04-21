@@ -10,7 +10,6 @@ INSERT INTO `car_configuration` (`configurationId`, `configurationGameName`, `co
 --
 
 INSERT INTO `car_items` (`itemId`, `itemItemTypeId`, `itemRaceId`, `itemPicture`, `itemName`, `itemDescription`, `itemLevel`, `itemLevelRequired`, `itemHpEffect`, `itemMpEffect`, `itemStrengthEffect`, `itemMagicEffect`, `itemAgilityEffect`, `itemDefenseEffect`, `itemDefenseMagicEffect`, `itemWisdomEffect`, `itemProspectingEffect`, `itemPurchasePrice`, `itemSalePrice`) VALUES
-INSERT INTO `car_items` (`itemId`, `itemItemTypeId`, `itemRaceId`, `itemPicture`, `itemName`, `itemDescription`, `itemLevel`, `itemLevelRequired`, `itemHpEffect`, `itemMpEffect`, `itemStrengthEffect`, `itemMagicEffect`, `itemAgilityEffect`, `itemDefenseEffect`, `itemDefenseMagicEffect`, `itemWisdomEffect`, `itemProspectingEffect`, `itemPurchasePrice`, `itemSalePrice`) VALUES
 (1, 1, 0, '../../img/empty.png', 'Armure de cuivre', 'Cette armure vous donnera un peu de défense', 1, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 100, 50),
 (2, 1, 0, '../../img/empty.png', 'Cape de lin', 'Cette cape vous donnera un peu de défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 100, 50),
 (3, 2, 0, '../../img/empty.png', 'Bottes de cuivre', 'Ses bottes vous donneront un peu de défense', 1, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 100, 50),
