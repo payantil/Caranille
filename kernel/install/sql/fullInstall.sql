@@ -15,7 +15,7 @@ INSERT INTO `car_items` (`itemId`, `itemItemTypeId`, `itemRaceId`, `itemPicture`
 (3, 7, 0, '../../img/empty.png', 'Parchemin de MP', 'Octroi +1 MP', 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 5000),
 (4, 7, 0, '../../img/empty.png', 'Parchemin de force', 'Octroi +1 en force', 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5000),
 (5, 7, 0, '../../img/empty.png', 'Parchemin de magie', 'Octroi +1 en magie', 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 5000),
-(6, 7, 0, '../../img/empty.png', 'Parchemin de agilité', 'Octroi +1 en agilité', 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 5000),
+(6, 7, 0, '../../img/empty.png', 'Parchemin d\\\'agilité', 'Octroi +1 en agilité', 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 5000),
 (7, 7, 0, '../../img/empty.png', 'Parchemin de défense', 'Octroi +1 en défense', 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 5000),
 (8, 7, 0, '../../img/empty.png', 'Parchemin de défense magique', 'Octroi +1 en défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5000),
 (9, 7, 0, '../../img/empty.png', 'Parchemin de sagesse', 'Octroi +1 en sagesse', 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5000),
