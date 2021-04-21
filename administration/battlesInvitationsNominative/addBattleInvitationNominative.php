@@ -27,8 +27,7 @@ if (isset($_POST['token'])
 		//S'il existe un ou plusieurs monstres on affiche le menu déroulant
 		if ($monsterRow > 0) 
 		{
-			$characterQuery = $bdd->query("SELECT * FROM car_characters
-			ORDER by characterName");
+			$characterQuery = $bdd->query("SELECT * FROM car_characters ORDER by characterName");
 			?>
 			
 			<p>Informations de l'invitation de combat</p>
