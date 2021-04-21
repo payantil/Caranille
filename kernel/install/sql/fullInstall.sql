@@ -10,7 +10,16 @@ INSERT INTO `car_configuration` (`configurationId`, `configurationGameName`, `co
 --
 
 INSERT INTO `car_items` (`itemId`, `itemItemTypeId`, `itemRaceId`, `itemPicture`, `itemName`, `itemDescription`, `itemLevel`, `itemLevelRequired`, `itemHpEffect`, `itemMpEffect`, `itemStrengthEffect`, `itemMagicEffect`, `itemAgilityEffect`, `itemDefenseEffect`, `itemDefenseMagicEffect`, `itemWisdomEffect`, `itemProspectingEffect`, `itemPurchasePrice`, `itemSalePrice`) VALUES
-(1, 6, 0, '../../img/empty.png', 'Potion (1*)', 'Cette potion vous rendra des HP', 1, 1, 100, 0, 0, 0, 0, 0, 0, 0, 0, 100, 50);
+(1, 6, 0, '../../img/empty.png', 'Potion (1*)', 'Cette potion vous rendra des HP', 1, 1, 100, 0, 0, 0, 0, 0, 0, 0, 0, 100, 50),
+(2, 7, 0, '../../img/empty.png', 'Parchemin de vitalité', 'Octroi +10 HP', 1, 1, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5000),
+(3, 7, 0, '../../img/empty.png', 'Parchemin de MP', 'Octroi +1 MP', 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 5000),
+(4, 7, 0, '../../img/empty.png', 'Parchemin de force', 'Octroi +1 en force', 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5000),
+(5, 7, 0, '../../img/empty.png', 'Parchemin de magie', 'Octroi +1 en magie', 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 5000),
+(6, 7, 0, '../../img/empty.png', 'Parchemin de agilité', 'Octroi +1 en agilité', 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 5000),
+(7, 7, 0, '../../img/empty.png', 'Parchemin de défense', 'Octroi +1 en défense', 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 5000),
+(8, 7, 0, '../../img/empty.png', 'Parchemin de défense magique', 'Octroi +1 en défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5000),
+(9, 7, 0, '../../img/empty.png', 'Parchemin de sagesse', 'Octroi +1 en sagesse', 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5000),
+(10, 7, 0, '../../img/empty.png', 'Parchemin de prospection', 'Octroi +1 en prospection', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 5000);
 --
 -- Contenu de la table `car_items_types`
 --
